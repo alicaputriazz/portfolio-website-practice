@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-800 text-gray-500">
+    <header class="z-10 sticky top-0 bg-gray-950 pt-5 py-5"> <!-- Header -->
+        <div >
+            <div>
+                <nav class="w-9/12 flex flex-row mx-auto">
+                    <div class="uppercase basis-1/4">
+                        <!-- Logo -->
+                        <a href="#hero">
+                            <span class="font-extrabold text-white">Alica</span>
+                            <span class="font-semibold text-white">Putri</span>
+                            <span class="font-extrabold text-blue-700">Azzahra</span>
+                        </a>
+                    </div>
+
+                    <div class="basis-1/2 flex items-center justify-evenly"> <!-- Link -->
+                        <a class="hover:text-gray-100 hover:font-semibold p-2 rounded-lg" href="#services"><span >services</span></a>
+                        <a class="hover:text-gray-100 hover:font-semibold p-2 rounded-lg" href="#portpolios"><span>portfolio</span></a>
+                        <a class="hover:text-gray-100 hover:font-semibold p-2 rounded-lg" href="#experience"><span>experience</span></a>
+                        <a class="hover:text-gray-100 hover:font-semibold p-2 rounded-lg" href="#contact"><span>contact</span></a>
+                    </div>
+
+                    <div class="basis-1/4 flex justify-end"> <!-- dark mode -->
+                        <!-- dark mode -->
+                        <a class="hover:text-gray-100 hover:font-semibold p-2 rounded-lg" href="#services"><span></span></a>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="hero" class="relative -top-20"> <!-- Main Content -->
+        <div class="bg-gray-950"> <!-- Hero sectionnya -->
+            <div class="mx-auto flex h-screen items-center w-9/12">
+                <div class="basis-1/2 "> <!-- deskripsi -->
+                    <div class="flex items-center">
+                        <svg class="stroke-gray-400 stroke-2 h-5 w-5">
+                            <line x1="0" y1="10px" x2="10px" y2="10px"/>
+                        </svg>
+                    <h2 class="uppercase text-xs font-extralight tracking-ngangkang">
+                        my name is
+                    </h2>
+                </div>
+                    <h3 class="font-bold text-4xl text-white">
+                        <span>Alica</span>
+                        <span>Putri</span>
+                        <span class="text-blue-700">Azzahra.</span>
+                    </h3>
+                    <p class="font-normal text-sm">
+                        Hi, welcome to my website ladies and gentleman!
+                        I'm a computer science student based in Tangerang, Indonesia.
+                        With a strong passion for web development. Still learning about
+                        HTML, Tailwind CSS, Javascript and Golang. Not only that but also I passionate about cats.
+                    </p>
+                    <div class="flex flex-row mt-5 space-x-3">
+                        <img class="w-6 h-6" src="/img/Instagram.svg" alt="">
+                        <img class="w-6 h-6" src="/img/Github.svg" alt="">
+                        <img class="w-6 h-6" src="/img/Twitter.svg" alt="">
+                        <img class="w-6 h-6" src="/img/Linkedin.svg" alt="">
+                    </div >
+                </div>
+                <div class="basis-1/2 "><!-- Avatar -->
+                    <img class="mx-auto" src="/img/alicaphoto.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="services" class="bg-slate-50 pt-20 pb-20"> <!-- services -->
+			<div class="w-9/12 mx-auto">
+				<div class="flex flex-col place-items-center"> <!-- judul -->
+					<div>
+						<div class="flex items-center">
+							<svg class="stroke-gray-400 stroke-2 h-5 w-5">
+								<line x1="0" y1="10px" x2="10px" y2="10px"/>
+							</svg>
+							<h2 class="uppercase text-xs font-extralight tracking-ngangkang">
+								services
+							</h2>
+						</div>
+						<h3 class="text-3xl">Specialized in</h3>
+					</div>
+				</div>
+
+				<div class="grid grid-cols-3 gap-10 py-10"> <!-- cards -->
+					<div class="rounded-lg bg-white shadow-lg">
+						<div class="flex flex-col items-center py-10 px-10">
+							<div class="h-10 w-10 p-2 bg-blue-100 rounded-2xl">
+								<img class="w-full" src="/img/crown.svg" alt="">
+							</div>
+							<h4 class="text-black mt-5">
+								UI/UX Design
+							</h4>
+							<p class="text-center font-extralight text-sm mt-2 text-gray">
+								Turn what you have in mind of a digital product into reality. For any platform you consider.
+							</p>
+						</div>
+					</div>
+					<div class="rounded-lg bg-white shadow-lg">
+						<div class="flex flex-col items-center py-10 px-10">
+							<div class="h-10 w-10 p-2 bg-blue-100 rounded-2xl">
+								<img class="w-full" src="/img/app.svg" alt="">
+							</div>
+							<h4 class="text-black mt-5">
+								Application Development
+							</h4>
+							<p class="text-center font-extralight text-sm mt-2 text-gray">
+								Standard designing, building, and implementing your applications with documentation.
+							</p>
+						</div>
+					</div>
+					<div class="rounded-lg bg-white shadow-lg">
+						<div class="flex flex-col items-center py-10 px-10">
+							<div class="h-10 w-10 p-2 bg-blue-100 rounded-2xl">
+								<img class="w-full" src="/img/globe.svg" alt="">
+							</div>
+							<h4 class="text-black mt-5">
+								Web Development
+							</h4>
+							<p class="text-center font-extralight text-sm mt-2 text-gray">
+								Create and maintain your websites and also take care of its performance and traffic capacity.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        
+        <div id="portpolios" class="bg-gray-950 py-40"> <!-- portpolios -->
+            <div class="w-9/12 mx-auto">
+                <div class="flex flex-col"> <!-- judul -->
+						<div class="flex items-center">
+							<svg class="stroke-gray-400 stroke-2 h-5 w-5">
+								<line x1="0" y1="10px" x2="10px" y2="10px"/>
+							</svg>
+							<h2 class="uppercase text-xs font-extralight tracking-ngangkang">
+								My Works
+							</h2>
+						</div>
+						<h3 class="text-3xl text-white">Featured Portpolios</h3>
+				</div>
+
+                <div class="grid grid-cols-4 gap-20 mt-20"> <!-- cards-->
+                    <div class="rounded-lg shadow-lg overflow-hidden"> <!-- card 1-->
+                        <img class="object-cover h-48 w-96 opacity-50" src="/img/Landing-page.png" alt="">
+                        <div class="bg-white py-2 px-4">
+                            <h4 class="text-sm font-medium text-gray-800">Photography Freelance</h4>
+                            <h5 class="text-sm font-mono font-light">Figma</h5>
+                        </div>
+                    </div>
+                    <div class="rounded-lg shadow-lg overflow-hidden"> <!-- card 2-->
+                        <img class="object-cover h-48 w-96 opacity-50" src="/img/Landing Page_book.png    " alt="">
+                        <div class="bg-white py-2 px-4">
+                            <h4 class="text-sm font-medium text-gray-800">Book sell Web</h4>
+                            <h5 class="text-sm font-mono font-light">PHP</h5>
+                        </div>
+                    </div>
+                    <div class="rounded-lg shadow-lg overflow-hidden"> <!-- card 3 -->
+                        <img class="object-cover h-48 w-96 opacity-50" src="/img/Homepage_Dashboard.png" alt="">
+                        <div class="bg-white py-2 px-4">
+                            <h4 class="text-sm font-medium text-gray-800">Fashion Web</h4>
+                            <h5 class="text-sm font-mono font-light">Golang</h5>
+                        </div>
+                    </div>
+                    <div class="rounded-lg shadow-lg overflow-hidden"> <!-- card 4 -->
+                        <img class="object-cover h-48 w-96 opacity-50" src="/img/Landing_page_vaksin.png" alt="">
+                        <div class="bg-white py-2 px-4">
+                            <h4 class="text-sm font-medium text-gray-800">Ayo Vaksin Blog</h4>
+                            <h5 class="text-sm font-mono font-light">Tailwind CSS</h5>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+        <div id="experience" class="bg-gray-950 py-40"> <!-- Experience -->
+            <div class="mx-auto w-9/12 flex flex-row items-center">
+                <div class="basis-1/3">
+                    <div class="flex flex-col"> <!-- judul -->
+						<div class="flex items-center">
+							<svg class="stroke-gray-400 stroke-2 h-5 w-5">
+								<line x1="0" y1="10px" x2="10px" y2="10px"/>
+							</svg>
+							<h2 class="uppercase text-xs font-extralight tracking-ngangkang">
+								career path
+							</h2>
+						</div>
+						<h3 class="text-3xl text-white">Experiences</h3>
+
+                        <div class="flex flex-col gap-5 mt-10 pr-20">
+                            <a class="hover:bg-blue-200 hover:text-blue-800 flex flex-row justify-between bg-white w-full p-4 rounded-lg" href=""><span>BuildWith Angga</span>></a>
+                            <a class="hover:bg-blue-200 hover:text-blue-800 flex flex-row justify-between bg-white w-full p-4 rounded-lg" href=""><span>CV.Jangkrik Kreatif</span>></a>
+                            <!--<a class="hover:bg-blue-200 hover:text-blue-800 flex flex-row justify-between bg-white w-full p-4 rounded-lg" href=""><span>Apple</span>></a>
+                            <a class="hover:bg-blue-200 hover:text-blue-800 flex flex-row justify-between bg-white w-full p-4 rounded-lg" href=""><span>The Ucup</span>></a>-->
+                        </div>
+				    </div>
+                </div>
+                <div class="basis-2/3 pl-20">
+                    <h4 class="text-2xl font-bold text-gray-200">Junior Graphic Designer</h4>
+                    <h5 class="text-sm font-light">Bandung</h5>
+                    <p class="mt-5 text-light text-gray-200">May - June 2022 : full time</p>
+                    <div class="mt-2">
+                        <span class="border-white border border-solid px-2 py-1 rounded-md text-sm font-mono gap-3">Figma</span>
+                        <span class="border-white border border-solid px-2 py-1 rounded-md text-sm font-mono gap-3">AdobeXD</span>
+                    </div>
+                    <hr class="my-5">
+                    <ul class="list-disc list-inside leading-10">
+                        <li>
+                            Design a job opening infographic for the @meetportal Instagram post, and work with a shortlink to make it simpler for the audience to apply for jobs using the provided link
+                        </li>
+                        <li>
+                            Created the @meetportal logo in accordance with the existing color scheme and concept name
+                        </li>
+                        <li>
+                            Contribute to the creation of daily post designs for content @buildwithangga
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="portpolios" class="bg-gray-950 py-40"> <!-- portpolios -->
+            <div class="w-9/12 mx-auto">
+                <div class="flex flex-col"> <!-- judul -->
+						<div class="flex items-center">
+							<svg class="stroke-gray-400 stroke-2 h-5 w-5">
+								<line x1="0" y1="10px" x2="10px" y2="10px"/>
+							</svg>
+							<h2 class="uppercase text-xs font-extralight tracking-ngangkang">
+								My cats
+							</h2>
+						</div>
+						<h3 class="text-3xl text-white">In Case You Want To See Them <3 </h3>
+				</div>
+
+                <div class="grid grid-cols-2 gap-20 mt-20"> <!-- cards-->
+
+                    <div class="rounded-lg shadow-lg overflow-hidden"> <!-- card 1-->
+                        <img class="w-full" src="/img/ijul.jpeg" alt="">
+                        <div class="py-2 px-4">
+                            <h5 class=" text-center text-2xl font-extrabold py-5">Ijul</h5>
+                        </div>
+                    </div>
+                    <div class="rounded-lg shadow-lg overflow-hidden"> <!-- card 1-->
+                        <img class="w-full" src="/img/ijen.jpeg" alt="">
+                        <div class="py-2 px-4">
+                            <h5 class=" text-center text-2xl font-extrabold py-5">Ijen</h5>
+                        </div>
+                    </div>                 
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="bg-white pt-40"> <!-- contact -->
+            <div class="mx-auto w-9/12 flex flex-row items-center">
+                <div class="basis-1/2">
+                    <div class="flex flex-col"> <!-- judul -->
+						<div class="flex items-center">
+							<svg class="stroke-gray-400 stroke-2 h-5 w-5">
+								<line x1="0" y1="10px" x2="10px" y2="10px"/>
+							</svg>
+							<h2 class="uppercase text-xs font-extralight tracking-ngangkang">
+								inqury
+							</h2>
+						</div>
+						<h3 class="text-3xl text-gray-800">Contact Me</h3>
+				    </div>
+                    <form action="https://youtu.be/zUkR6chwtOo?si=sorX70I9NhV_xkkQ" target="_self">
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 font-semibold">Name</label>
+                            <input class="bg-blue-100 rounded-md px-4 py-2 w-full focus:ring-blue-950" type="text"/>
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 font-semibold">Email</label>
+                            <input class="bg-blue-100 rounded-md px-4 py-2 w-full focus:ring-blue-950" type="text"/>
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block text-gray-700 font-semibold">Message</label>
+                            <textarea class="font-medium text-black-300 bg-blue-100 rounded-md px-4 py-2 w-full focus:ring-blue-950" name="" id="" cols="30" rows="4">send your message to me!</textarea>
+                        </div>
+                        <div>
+                            <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-2 py-4 rounded-md w-full" type="submit">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="basis-1/2 ml-10">
+					<div class="flex flex-row gap-5 p-5">
+						<div class="w-10 h-10 p-2 bg-blue-100 rounded-2xl">
+							<img class="w-full" src="/img/pin.svg" alt="">
+						</div>
+						<div>
+							<h4 class="text-lg text-gray-800 font-medium">Address</h4>
+							<h5 class="font-normal">Rajeg, Tangerang 15540, Indonesia.</h5>
+						</div>
+					</div>
+
+					<div class="flex flex-row gap-5 p-5">
+						<div class="w-10 h-10 p-2 bg-blue-100 rounded-2xl">
+							<img class="w-full" src="/img/phone call.svg" alt="">
+						</div>
+						<div>
+							<h4 class="text-lg text-gray-800 font-medium">Phone Call</h4>
+							<h5 class="font-normal">(+62) 123456123456</h5>
+						</div>
+					</div>
+
+					<div class="flex flex-row gap-5 p-5">
+						<div class="w-10 h-10 p-2 bg-blue-100 rounded-2xl">
+							<img class="w-full" src="/img/mail.svg" alt="">
+						</div>
+						<div>
+							<h4 class="text-lg text-gray-800 font-medium">E-Mail</h4>
+							<h5 class="font-normal">alica@raharja.info</h5>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+
+        
+    </main>
+
+
+    <footer class="bg-white text-center pt-10 pb-10 font-mono -mt-20"> <!-- Footer -->
+        Alica Putri Azzahra [build with love!] <br> 
+        2024.
+    </footer>
+</body>
+</html>
